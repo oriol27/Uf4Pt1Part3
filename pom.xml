@@ -14,7 +14,8 @@
     <name>Uf4Pt1Part3</name>
     <description>Uf4Pt1Part3</description>
     <properties>
-        <java.version>17</java.version>
+        <java.version>1.8</java.version>
+        <maven.compiler.target>15</maven.compiler.target>
     </properties>
     <dependencies>
         <dependency>
