@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar target/HerokuSpring-0.0.1-SNAPSHOT.jar
+web: java -Dserver.port=$PORT -jar target/Uf4Pt1Part3-0.0.1-SNAPSHOT.jar
