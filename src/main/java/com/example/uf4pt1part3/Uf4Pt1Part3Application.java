@@ -5,14 +5,17 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 @SpringBootApplication
 public class Uf4Pt1Part3Application {
     @RequestMapping("/")
     @ResponseBody
-    String home() {
-        return "Hola Oriol";
+    ModelAndView home() {
+        ModelAndView mav = new ModelAndView();
+        mav.setViewName("index.html");
+        return mav;
     }
 
     @RequestMapping("/imprimirArray")
