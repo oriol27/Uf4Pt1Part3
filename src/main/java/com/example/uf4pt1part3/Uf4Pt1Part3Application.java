@@ -18,13 +18,6 @@ public class Uf4Pt1Part3Application {
         return mav;
     }
 
-    @RequestMapping("/imprimirArray")
-    @ResponseBody
-    String[] array1() {
-        String cotxes[] = {"Astra", "Fiesta", "Focus"};
-        return cotxes;
-    }
-
     public static void main(String[] args) {
         SpringApplication.run(Uf4Pt1Part3Application.class, args);
     }
