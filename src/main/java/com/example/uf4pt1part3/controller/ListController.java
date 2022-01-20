@@ -11,6 +11,6 @@ public class ListController {
     @GetMapping("/imprimirArray")
     public String llistat(Model model) {
         model.addAttribute("list", Arrays.asList("Astra", "Fiesta", "Focus"));
-        return "list";
+        return "ListTemplate";
     }
 }
